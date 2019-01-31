@@ -33,3 +33,12 @@
 
 ## 3.2 添加远程创库的链接：
 - git remot add origin https://github.com/dhai1011/xxx
+
+## 3.4 查看README.md
+- git blame README.md
+- git blame -L 5,10 README.md   //查看第5到10行
+
+## 3.5 删除未被跟踪的文件（未被添加到缓存区的文件）
+- git clean -n    //列出要删除的文件  
+- git clean -f    //删除要删除的文件  
+- git clean -x -f    //设置删除 .gitignore 中忽略的文件
