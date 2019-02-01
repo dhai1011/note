@@ -55,4 +55,4 @@
 - git log -n  
 
 ## 3.7 log diff  
-![diff](git_diff.png)  
+![diff](https://github.com/dhai1011/note/blob/master/git%20diff.png)  
