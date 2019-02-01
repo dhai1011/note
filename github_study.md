@@ -56,3 +56,6 @@
 
 ## 3.7 log diff  
 ![diff](https://github.com/dhai1011/note/blob/master/git%20diff.png)  
+
+## 3.8 reset
+![reset](https://github.com/dhai1011/note/blob/master/git%20reset.png)
