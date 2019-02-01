@@ -19,6 +19,7 @@
 ## 3.1 基本命令
 - git status
 - git add  file
+- git rm  file
 - git commit -m "..."
 - git push
 
@@ -42,3 +43,16 @@
 - git clean -n    //列出要删除的文件  
 - git clean -f    //删除要删除的文件  
 - git clean -x -f    //设置删除 .gitignore 中忽略的文件
+
+## 3.6 信息查看
+- git status -sb  //short and branch  
+- git show HEAD  //查看某个提交信息  
+- git show HEAD~  //git show HEAD~1  
+- git tag tt HEAD~4   //给倒数第5次提交（到时第一次提交时HEAD,到数第二次提交时HEAD~）设置一个标准  
+- git diff tt  //查看工作区与第5次提交的差别  
+- git log <file name>  
+- git log --grep <msg>
+- git log -n  
+
+## 3.7 log diff  
+![diff](./git_diff.png)  
