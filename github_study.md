@@ -48,11 +48,11 @@
 - git status -sb  //short and branch  
 - git show HEAD  //查看某个提交信息  
 - git show HEAD~  //git show HEAD~1  
-- git tag tt HEAD~4   //给倒数第5次提交（到时第一次提交时HEAD,到数第二次提交时HEAD~）设置一个标准  
+- git tag tt HEAD\~4   //给倒数第5次提交（到时第一次提交时HEAD,到数第二次提交时HEAD\~）设置一个标准  
 - git diff tt  //查看工作区与第5次提交的差别  
 - git log <file name>  
 - git log --grep <msg>
 - git log -n  
 
 ## 3.7 log diff  
-![diff](./git_diff.png)  
+![diff](git_diff.png)  
