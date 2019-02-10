@@ -34,7 +34,8 @@
 ---
 
 ## 3.2 添加远程创库的链接：
-- git remot add origin https://github.com/dhai1011/xxx
+- git remote add origin https://github.com/dhai1011/xxx
+- git push -u origin master  
 
 ## 3.4 查看README.md
 - git blame README.md
@@ -63,7 +64,7 @@
 ![reset](https://github.com/dhai1011/note/blob/master/git%20reset.png)
 - git reset --hard HEAD~
   - 撤销  commit，add，并丢弃对文件的修改
-- git reset  
+- git reset  // git  reset  mixed
   - 撤销  commit，add，保留对文件的修改
 -  git  reset --soft HEAD~
   - 只撤销 commit
