@@ -20,6 +20,7 @@
 - git status
 - git add  file
 - git rm  file
+- git rm --cache file   //删除暂存区的file
 - git commit -m "..."
 - git push
 
@@ -53,9 +54,16 @@
 - git log <file name>  
 - git log --grep <msg>
 - git log -n  
+- git log  
 
 ## 3.7 log diff  
 ![diff](https://github.com/dhai1011/note/blob/master/git%20diff.png)  
 
 ## 3.8 reset
 ![reset](https://github.com/dhai1011/note/blob/master/git%20reset.png)
+- git reset --hard HEAD~
+  - 撤销  commit，add，并丢弃对文件的修改
+- git reset  
+  - 撤销  commit，add，保留对文件的修改
+-  git  reset --soft HEAD~
+  - 只撤销 commit
