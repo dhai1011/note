@@ -57,14 +57,8 @@
 - git log -n  
 - git log  
 
-## 3.7 log diff  
-![diff](https://github.com/dhai1011/note/blob/master/git%20diff.png)  
+## 3.7 git tag  
+ ![tag1](images/tag1.png) 
+ ![tag2](images/tag2.png)
 
-## 3.8 reset
-![reset](https://github.com/dhai1011/note/blob/master/git%20reset.png)
-- git reset --hard HEAD~
-  - 撤销  commit，add，并丢弃对文件的修改
-- git reset  // git  reset  mixed
-  - 撤销  commit，add，保留对文件的修改
--  git  reset --soft HEAD~
-  - 只撤销 commit
+<!--- 下面是本文档中的链接 -->
