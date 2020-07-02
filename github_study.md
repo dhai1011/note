@@ -34,8 +34,8 @@
 ---
 
 ## 3.2 添加远程创库的链接：
-- git remote add origin https://github.com/dhai1011/xxx
-- git push -u origin master  
+- git remote add origin  git@github.com:dhai1011/xxx
+- git push -u origin master  //由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 - git push origin master   //推送最新修改
 
 ## 3.4 查看README.md
